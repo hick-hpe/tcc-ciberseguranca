@@ -1,17 +1,18 @@
 version: '3.8'
 
 services:
-  projeto1:
+  ambiente1:
     build:
-      context: ./projeto1
+      context: ./ambiente1
       dockerfile: Dockerfile
     ports:
       - "8000:8000"
     volumes:
-      - ./projeto1:/usr/src/app
+      - ./ambiente1:/usr/src/app
     networks:
-      - projeto1-network
+      - ambiente1-network
 
 networks:
-  projeto1-network:
+  ambiente1-network:
     driver: bridge
+
