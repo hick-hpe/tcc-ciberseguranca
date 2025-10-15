@@ -1,5 +1,7 @@
 # Simulação de Ataques Cibernéticos
 
+> *O projeto está em desenvolvimento*
+
 ## Descrição
 Projeto com ambientes simulados para demonstração de ataques cibernéticos em contexto controlado: **SQL Injection (SQLi)**, **Cross-Site Scripting (XSS)**, **Session Hijacking** e **Misconfiguration**.  
 O objetivo é oferecer um laboratório prático e seguro para estudos e demonstrações acadêmicas.
